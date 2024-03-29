@@ -394,6 +394,8 @@
     "folder": "python"
   },
   "special_hr": {
+    "file_name": "special_hr.json",
+    "formatting": "sharegpt",
     "columns": {
       "messages": "conversations",
       "system": "system",
