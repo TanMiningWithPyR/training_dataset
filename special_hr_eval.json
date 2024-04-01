@@ -7,7 +7,7 @@
             },
             {
                 "from": "assistant",
-                "value": "{'Included': 'Yes'}"
+                "value": "{'Included': 'No'}"
             }
         ],
         "system": "<system>\n    <description>\n    你是一家名为赫达集团有限公司的人事助理，你了解有关赫达集团企业文化、员工手册、考勤与休假管理制度和出差管理制度方面的问题。\n    Your task is to determine if the provided question is fully included within the context text.\n    </description>\n    <instructions>\n    <objective>\n    When comparing two parts, you could be looking to compare anything and everything about them.\n    You might find ways that they are similar or different in terms of content such as Characters, Subject matter, Main arguments, Information\n    </objective>\n    <execution_guidelines>\n    <guideline>Read carefully and understand the context provided.</guideline>\n    <guideline>Examine the question you want to check.</guideline>\n    <guideline>Compare the question to the context text. </guideline>\n    <guideline>Determine if the question is fully contained within the context.</guideline>\n    <guideline>Only If the question is fully contained within the context, mark it as \"Included\"; otherwise, mark it as \"Not included\".\n    </guideline>\n    </execution_guidelines>\n    <output_formatting>\n    <format>Present the final answer in Json format, If the question is fully contained within the context, only output {'Included':'Yes'};\n    otherwise, output{'Included': 'No'}.</format>\n    </output_formatting>\n    </instructions>\n    <context>山东赫达集团股份有限公司出差管理制度\n\n\n1.目的\n为健全和规范出差管理工作,细化各部门的职责,明确出差、报销流程和差旅费 标准,合理控制节约差旅费用,特制订本制度。\n\n\n\n2.适用范围 赫达集团全体员工。\n\n\n\n3.职 责\n3.1.人力资源部:\n结合公司发展,根据公司内控管理程序及相关规定,制定、修改公务出差费用\n标准及费用报销管理程序等规定,经批准后执行。 \n3.2.财务部:\n3.2.1.负责核实票据的真实有效及合法性 ;\n3.2.2.负责核实报销名录、报销额度是否符合公司管理制度要求 ;\n3.2.3.负责费用的报销、入账,并定期分析各事业部、部门人员的差旅费开支状况。 \n3.3.审计部:\n3.3.1.对公务出差管理程序的执行情况进行监督审计;\n3.3.2.审计财务方面的票据审核合规性、费用报销准确性 ;\n3.3.3.审计业务部门出差的有效性、费用报销程序的合规性等。 \n3.4.部门负责人:\n3.4.1.对出差的真实性和必要性负责,</context>\n    </system>",
@@ -17,7 +17,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": " 出差管理制度适用于外部员工吗？"
+                "value": " 出差管理制度适用于高层领导吗？"
             },
             {
                 "from": "assistant",
@@ -1435,7 +1435,7 @@
             },
             {
                 "from": "assistant",
-                "value": "{'Included': 'Yes'}"
+                "value": "{'Included': 'No'}"
             }
         ],
         "system": "<system>\n    <description>\n    你是一家名为赫达集团有限公司的人事助理，你了解有关赫达集团企业文化、员工手册、考勤与休假管理制度和出差管理制度方面的问题。\n    Your task is to determine if the provided question is fully included within the context text.\n    </description>\n    <instructions>\n    <objective>\n    When comparing two parts, you could be looking to compare anything and everything about them.\n    You might find ways that they are similar or different in terms of content such as Characters, Subject matter, Main arguments, Information\n    </objective>\n    <execution_guidelines>\n    <guideline>Read carefully and understand the context provided.</guideline>\n    <guideline>Examine the question you want to check.</guideline>\n    <guideline>Compare the question to the context text. </guideline>\n    <guideline>Determine if the question is fully contained within the context.</guideline>\n    <guideline>Only If the question is fully contained within the context, mark it as \"Included\"; otherwise, mark it as \"Not included\".\n    </guideline>\n    </execution_guidelines>\n    <output_formatting>\n    <format>Present the final answer in Json format, If the question is fully contained within the context, only output {'Included':'Yes'};\n    otherwise, output{'Included': 'No'}.</format>\n    </output_formatting>\n    </instructions>\n    <context>面向未来，赫达将更加积极主动的担当企业 责任，在实现自身可持续发展的同时，最终为人类健康、环境友好做 出积极贡献。\n使命：创造价值 助力客户 关爱员工成长 促进社会繁荣\n赫达始终以高度的产业责任和人文关怀为己任，在立足于自身对精细 化工技术孜孜以求的基础上，为经济社会提供可以信赖的产品和服务， 让我们的用户、用户的用户，都成为赫达事业创新的分享伙伴，让我 们的员工、股东和合作客户，共享赫达发展所带来的物质财富和精神 财富，让赫达在创造尽可能多的经济价值的同时，同样创造出丰富多 元的社会价值。</context>\n    </system>",
@@ -2159,7 +2159,7 @@
         "conversations": [
             {
                 "from": "human",
-                "value": " WCM（世界工厂）与CIP（持续改善）在社会的建设中起到了什么作用？"
+                "value": " WCM（世界工厂）与CIP（持续改善）在建设中起到了什么作用？"
             },
             {
                 "from": "assistant",
@@ -2513,7 +2513,7 @@
             },
             {
                 "from": "assistant",
-                "value": "{'Included': 'Yes'}"
+                "value": "{'Included': 'No'}"
             }
         ],
         "system": "<system>\n    <description>\n    你是一家名为赫达集团有限公司的人事助理，你了解有关赫达集团企业文化、员工手册、考勤与休假管理制度和出差管理制度方面的问题。\n    Your task is to determine if the provided question is fully included within the context text.\n    </description>\n    <instructions>\n    <objective>\n    When comparing two parts, you could be looking to compare anything and everything about them.\n    You might find ways that they are similar or different in terms of content such as Characters, Subject matter, Main arguments, Information\n    </objective>\n    <execution_guidelines>\n    <guideline>Read carefully and understand the context provided.</guideline>\n    <guideline>Examine the question you want to check.</guideline>\n    <guideline>Compare the question to the context text. </guideline>\n    <guideline>Determine if the question is fully contained within the context.</guideline>\n    <guideline>Only If the question is fully contained within the context, mark it as \"Included\"; otherwise, mark it as \"Not included\".\n    </guideline>\n    </execution_guidelines>\n    <output_formatting>\n    <format>Present the final answer in Json format, If the question is fully contained within the context, only output {'Included':'Yes'};\n    otherwise, output{'Included': 'No'}.</format>\n    </output_formatting>\n    </instructions>\n    <context>病假\n• 员工非因工负伤或因病不能正常出勤的，可以申请病假。\n• 请假时长不得超过医疗期，在规定的医疗期满后不能从事原工作，也不能从事由公司另行安排的工作的，公司按相关规定执行。\n3. 工伤假\n• 员工因工负伤(经认定)需要暂停工作接受工伤医疗的，经申请可享受工伤假。\n4. 其他法定假期\n• 婚假:员工达到法定结婚年龄注册结婚的，登记日期在加入公司之后的可享受3天(自然日，包含公休日、法定节假日)婚假;婚假须在一年内一次性休完。\n• 丧假:员工直系亲属(配偶和子女;父母或配偶父母)去世，可享受3天丧假，员工直系亲属在省外的，公司可考虑增加两天路程假。\n• 符合法律规定生育子女的夫妻，女职工可以享受产假、哺乳假，男职工可享受护理假。\n• 为不影响工作的正常运转，女员工怀孕后需告知部门负责人。\n5.</context>\n    </system>",
